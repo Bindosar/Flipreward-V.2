@@ -21,6 +21,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   /* margin-bottom: 50px; */
+  
+
 }
 
 .button1 {
@@ -33,9 +35,15 @@ a {
 .button2 {
   margin-left: 19px;
   margin-top: 15px;
-  margin-right: 100px;
+  margin-right: 25px;
   color: #f2f2f2;
   border: transparent;
+}
+
+.button3{
+  color: #f2f2f2;
+  border: transparent;
+  margin-top: 15px;
 }
 
 .imgHome {
@@ -46,11 +54,13 @@ a {
 
 .slogan {
   width: 600px;
-  margin-top: 230px;
+  margin-top: -40px;
   margin-right: 700px;
-  font-size: 48px;
+  font-size: 40px;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  
 }
 
 .joinUsBtn {
@@ -58,16 +68,34 @@ a {
   font-size: 20px;
   padding-left: 23px;
   padding-right: 23px;
-  margin-top: 45px;
+  margin-top: 30px;
   margin-left: 100px;
+  background-color: #E73786;
+  
 }
+
+#joinUsBtn:hover{
+  background-color: 
+  #7E7E7E;
+}
+
 .section2 {
   min-height: 100vh;
   background-image: url("./img/shape.png");
   background-repeat: no-repeat;
   background-size: cover;
   
+
+  
 }
+
+.flipLandingPageLogo{
+  text-align: center;
+  
+}
+
+.cardconatiner{}
+
 /* .card1{
   margin-bottom: 300px;
 } */
