@@ -112,7 +112,7 @@
    height: auto;
 }
  .cardList__btn {
-   --btn-size: 35px;
+   --btn-size: 60px;
    width: var(--btn-size);
    height: var(--btn-size);
    position: absolute;
@@ -122,9 +122,11 @@
 }
  .cardList__btn.btn--left {
    left: -5%;
+   border:  0 none;
 }
  .cardList__btn.btn--right {
    right: -5%;
+   border:  0 none;
 }
  .cardList__btn .icon {
    width: 100%;
@@ -133,6 +135,7 @@
  .cardList__btn .icon svg {
    width: 100%;
    height: 100%;
+   
 }
  .cardList .cards__wrapper {
    position: relative;
@@ -141,6 +144,7 @@
    perspective: 1000px;
 }
  .card {
+   background-color: transparent;
    --card-translateY-offset: 100vh;
    position: absolute;
    left: 50%;
@@ -183,14 +187,20 @@
    --card-rotation-offset: var(--current-card-rotation-offset);
    --card-scale-offset: 1.2;
    --opacity: 0.8;
+   width: 550px;
+   border: 0 none;
 }
  .card.previous--card {
    --card-translateX-offset: calc(-1 * var(--card-width) * 1.1);
    --card-rotation-offset: 25deg;
+   width: 550px;
+   border: 0 none;
 }
  .card.next--card {
    --card-translateX-offset: calc(var(--card-width) * 1.1);
    --card-rotation-offset: -25deg;
+   width: 550px;
+   border: 0 none;
 }
  .card.previous--card, .card.next--card {
    --card-scale-offset: 0.9;
@@ -306,7 +316,7 @@
 }
  @media only screen and (min-width: 800px) {
    :root {
-     --card-width: 420px;
+     --card-width: 400px;
      --card-height: 400px;
   }
 }
@@ -368,7 +378,7 @@
   </section>
     <section class="section2">
       <div class="cardconatiner" style="display: flex; justify-content: space-around;">
-      <div  style="width: 24rem; margin-top: 300px; height: 12rem; background-color: transparent; border-color: transparent;">
+      <div  style="width: 24rem; margin-top: 360px; height: 12rem; background-color: transparent; border-color: transparent;">
         <div style="text-align: center;">
           <img src="./img/rating.png" style="width: 120px;"/>
         </div>
@@ -379,7 +389,7 @@
           </p>
         </div>
       </div>
-      <div  style="width: 24rem; margin-top: 220px; height: 12rem; background-color: transparent; border-color: transparent;">
+      <div  style="width: 24rem; margin-top: 250px; height: 12rem; background-color: transparent; border-color: transparent;">
         <div style="text-align: center;">
           <img src="./img/coin.png" style="width: 120px;"/>
         </div>
@@ -415,7 +425,7 @@
 
 
 
-<section class="slides">
+<section class="slides" style="margin-bottom: 500px;">
   <div class="app">
     <div class="cardList">
       <button class="cardList__btn btn btn--left">
@@ -502,11 +512,11 @@
   <svg class="icons" style="display: none;">
     <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
       <polyline points='328 112 184 256 328 400'
-             style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+             style='fill:none;stroke:#E73786;stroke-linecap:round;stroke-linejoin:round;stroke-width:65px' />
     </symbol>
     <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
       <polyline points='184 112 328 256 184 400'
-             style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+             style='fill:none;stroke:#E73786;stroke-linecap:round;stroke-linejoin:round;stroke-width:65px' />
     </symbol>
   </svg>
 </section>
