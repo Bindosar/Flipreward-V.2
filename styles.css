@@ -5,13 +5,14 @@
 }
 body{
   overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
   color: #f2f2f2;
   text-align: center;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 a {
@@ -100,7 +101,8 @@ a {
 }
 
 .flipLandingPageLogo{
-  text-align: center;
+  /* text-align: center; */
+  margin-left: 23%;
   
 }
 
