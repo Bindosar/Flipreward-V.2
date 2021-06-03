@@ -253,3 +253,65 @@ const waitForImages = () => {
 };
 
 waitForImages();
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const counters = document.querySelectorAll(".counter");
+// const speed = 200;
+
+// counters.forEach((counter) => {
+//   const updateCount = () => {
+//     const target = +counter.getAttribute("data-target");
+//     const count = +counter.innerText;
+
+//     const inc = target / speed;
+
+//     if (count < target) {
+//       counter.innerText = Math.ceil(count + inc);
+//       setTimeout(updateCount, 1);
+//     } else {
+//       count.innerText = target;
+//     }
+//   };
+
+//   updateCount();
+// });
+
+// let progress = document.getElementById("progressbar");
+// let totalHeight = document.body.scrollHeight - window.innerHeight;
+// window.onscroll = function () {
+//   let progressHeight = (window.pageYOffset / totalHeight) * 100;
+//   progress.style.height = progressHeight + "%";
+// };
+
+// $(".navigate-section > li > a[href*=#], a.navigate-btn[href*=#]").on(
+//   "click",
+//   function (event) {
+//     event.preventDefault();
+//     var dataOffset = 0;
+
+//     if ($(this).is("[data-offset]")) {
+//       dataOffset = parseInt($(this).attr("data-offset"));
+//     }
+
+//     var offset = 90 - dataOffset;
+//     $("html, body").animate(
+//       {
+//         scrollTop: $($(this).attr("href")).offset().top - offset,
+//       },
+//       500,
+//       "linear"
+//     );
+//   }
+// );
+
