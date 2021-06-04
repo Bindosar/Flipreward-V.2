@@ -5,141 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .serving .container .mainbox {
-  transition: all 0.35s ease-in-out;
+    <style> 
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
 }
-.serving .container .mainbox:hover {
-  transform: translateY(-15px);
+.css-1midgh2-MuiAvatar-root {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(249, 185, 52);
+    width: 20px;
+    height: 20px;
 }
-.serving .container .mainbox > div.cr1 {
-  background-color: #CA72D6;
-  box-shadow: 0px -10px 0px rgba(202, 114, 214, 0.5);
+.css-zr6tlc {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
 }
-.serving .container .mainbox > div.cr2 {
-  background-color: #7A72D6;
-  box-shadow: 0px -10px 0px rgba(122, 114, 214, 0.5);
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
-.serving .container .mainbox > div.cr3 {
-  background-color: #72CED6;
-  box-shadow: 0px -10px 0px rgba(114, 206, 214, 0.5);
+.css-1rn3z02-MuiTableCell-root {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    text-align: left;
+    padding: 16px;
+    color: rgb(45, 55, 72);
 }
-.serving .container .mainbox > div.cr4 {
-  background-color: #95D672;
-  box-shadow: 0px -10px 0px rgba(149, 214, 114, 0.5);
+td {
+    display: table-cell;
+    vertical-align: inherit;
 }
-.serving .container .mainbox > div:nth-of-type(1) {
-  padding: 15px 0;
-  border-radius: 25px 25px 0 0;
+.css-1lhl09b-MuiTable-root {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    min-width: 600px;
 }
-.serving .container .mainbox > div:nth-of-type(1) h5 {
-  margin-bottom: 0;
-  color: #fff;
-  text-align: center;
+.css-1lhl09b-MuiTable-root {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    min-width: 600px;
 }
-.serving .container .mainbox > div:nth-of-type(2) {
-  padding: 30px 20px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0px 5px 5px #ddd;
-  border-radius: 0 0 25px 25px;
-  position: relative;
+.css-pct80t-MuiTableCell-root {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    text-align: center;
+    padding: 16px;
+    color: rgb(45, 55, 72);
 }
-.serving .container .mainbox > div:nth-of-type(2):hover:after {
-  height: 100%;
-}
-.serving .container .mainbox > div:nth-of-type(2)::after {
-  content: " ";
-  width: 100%;
-  height: 0%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  border-radius: 0 0 25px 25px;
-  transition: all 0.35s ease-in-out;
-}
-.serving .container .mainbox > div:nth-of-type(2).afr1::after {
-  background-color: #CA72D6;
-}
-.serving .container .mainbox > div:nth-of-type(2).afr2::after {
-  background-color: #7A72D6;
-}
-.serving .container .mainbox > div:nth-of-type(2).afr3::after {
-  background-color: #72CED6;
-}
-.serving .container .mainbox > div:nth-of-type(2).afr4::after {
-  background-color: #95D672;
-}
-.serving .container .mainbox > div:nth-of-type(2) span {
-  color: #000;
-  font-size: 60px;
-  font-weight: bold;
-  font-family: sans-serif;
-  position: relative;
-  z-index: 999999;
-}
-@media (max-width: 576px) {
-  .serving .container .mainbox > div:nth-of-type(2) span {
-    font-size: 50px;
-  }
-}
-
-/* End serving */
-/* starting mission */
     </style>
 </head>
 <body>
-    <section class="serving" >
-        <div class="container" style="width: 1190px; margin-right: auto; margin-left: auto;" >
-            <!-- <h3>We are serving </h3> -->
-            <div class="row" style="display: flex; justify-content: space-around; ">
-                <div class="col-md col-sm-6 col-6 wow fadeInUpBig" data-wow-duration=".75s" data-wow-offset="60" style="visibility: visible; animation-duration: 0.75s; min-width: 240px;" >
-                    <div class="mainbox">
-                        <div class="cr1">
-                            <h5>Restaurant</h5>
-                        </div>
-                        <div class="afr1">
-                            <span>143</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md col-sm-6 col-6 wow fadeInUpBig" data-wow-duration=".85s" data-wow-offset="60" style="visibility: visible; animation-duration: 0.85s;
-                min-width: 240px;">
-                    <div class="mainbox">
-                        <div class="cr2">
-                            <h5>Branche</h5>
-                        </div>
-                        <div class="afr2">
-                            <span>236</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md col-sm-6 col-6 wow fadeInUpBig" data-wow-duration=".95s" data-wow-offset="60" style="visibility: visible; animation-duration: 0.95s;
-                min-width: 240px;">
-                    <div class="mainbox">
-                        <div class="cr3">
-                            <h5>Countries</h5>
-                        </div>
-                        <div class="afr3">
-                            <span>5</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md col-sm-6 col-6 wow fadeInUpBig" data-wow-duration="1.05s" data-wow-offset="60" style="visibility: visible; animation-duration: 1.05s;
-                min-width: 240px;">
-                    <div class="mainbox">
-                        <div class="cr4">
-                            <h5>Guest </h5>
-                        </div>
-                        <div class="afr4">
-                            <span>
-                                390B
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   <div style="width: 1000px; margin-right: auto; margin-left: auto;" class="css-1a8w37c"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiTableContainer-root css-1je2bgj-MuiPaper-root-MuiTableContainer-root"><table style="margin-left: auto; margin-right: auto;     display: table; 
+    border-collapse: separate;
+    
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    background-color: rgb(255, 255, 255);
+    color: rgb(45, 55, 72);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: none;
+    width: 100%;
+    overflow-x: auto;" class="MuiTable-root css-1lhl09b-MuiTable-root" aria-label="caption table">
+    <!-- <caption>Compare the plans and choose the one which works for you the best.</caption> -->
+
+
+    <thead class="MuiTableRow-root MuiTableRow-head css-i4rxve-MuiTableRow-root"><th  class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-38rhz1-MuiTableCell-root" scope="col">Features</th><th class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-xn40ft-MuiTableCell-root" scope="col"><p class="MuiTypography-root MuiTypography-body1 css-ydtq79-MuiTypography-root">Basic</p></th><th class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-xn40ft-MuiTableCell-root" scope="col"><p class="MuiTypography-root MuiTypography-body1 css-ydtq79-MuiTypography-root">Professional</p></th><th class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-xn40ft-MuiTableCell-root" scope="col"><p class="MuiTypography-root MuiTypography-body1 css-ydtq79-MuiTypography-root">Commercial</p></th></tr></thead>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tbody class="MuiTableBody-root css-apqrd9-MuiTableBody-root"><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">1 </th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">2 </th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">3</th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">4</th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">5</th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">6</th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">7</th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">8</th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><th class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root" scope="row">9</th><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"></div></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><div class="css-zr6tlc"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1midgh2-MuiAvatar-root"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg></div></div></td></tr><tr class="MuiTableRow-root css-i4rxve-MuiTableRow-root"><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1rn3z02-MuiTableCell-root"></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><button class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButtonBase-root css-1tmf0bn-MuiButtonBase-root-MuiButton-root" tabindex="0" type="button"><span class="MuiButton-label css-8xplcm-MuiButton-label">Join us</span><span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></button></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><button class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButtonBase-root css-1puob1-MuiButtonBase-root-MuiButton-root" tabindex="0" type="button"><span class="MuiButton-label css-8xplcm-MuiButton-label">Join us</span><span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></button></td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-pct80t-MuiTableCell-root"><button class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButtonBase-root css-1tmf0bn-MuiButtonBase-root-MuiButton-root" tabindex="0" type="button"><span class="MuiButton-label css-8xplcm-MuiButton-label">Join us</span><span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></button></td></tr></tbody></table></div></div>
 </body>
 </html>
