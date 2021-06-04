@@ -39,6 +39,14 @@ a {
   border: transparent;
   border-radius: 50px;
 }
+/* Pricing page styling */
+.button11 {
+  margin-left: 560px;
+  margin-top: 50px;
+  color: #f2f2f2;
+  border: transparent;
+  border-radius: 50px;
+}
 
 .button2 {
   margin-left: 19px;
@@ -48,6 +56,17 @@ a {
   border: transparent;
   border-radius: 50px;
 }
+/* Pricing page styling */
+
+.button22 {
+  margin-left: 19px;
+  margin-top: 50px;
+  margin-right: 25px;
+  color: #f2f2f2;
+  border: transparent;
+  border-radius: 50px;
+}
+
 
 .button3{
   color: #f2f2f2;
@@ -55,6 +74,7 @@ a {
   margin-top: 15px;
   border-radius: 50px;
 }
+
 
 /* .imgHome {
   width: 130px;
