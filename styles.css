@@ -495,6 +495,10 @@ textarea {
   background-color: #95D672;
   box-shadow: 0px -10px 0px rgba(149, 214, 114, 0.5);
 }
+.serving .container .mainbox > div.cr5 {
+  background-color: #95D672;
+  box-shadow: 0px -10px 0px rgba(149, 214, 114, 0.5);
+}
 .serving .container .mainbox > div:nth-of-type(1) {
   padding: 15px 0;
   border-radius: 25px 25px 0 0;
@@ -582,8 +586,8 @@ textarea {
 
     .card123 {
       position: relative;
-      width: 300px;
-      height: 400px;
+      width: 250px;
+      height: 350px;
       /* margin: 0 auto; */
       background: #1F2040;
       border-radius: 15px;
@@ -599,7 +603,7 @@ textarea {
       }
         .face1 {
           box-sizing: border-box;
-          padding: 20px;
+          padding: 15px;
           
 
         }
@@ -641,7 +645,8 @@ textarea {
           }
 
     .card123:hover .face.face2 {
-      height: 60px;
+      height: 80px;
+      
     }
       h2 {
         font-size: 2em;
@@ -649,19 +654,28 @@ textarea {
     
 
     .card123:nth-child(1) .face.face2 {
-      background-image: url(./img/);
+      background-color: #F2F2F2;
+      background-image: url(./img/coin.svg) ;
+      background-size: contain;
+      background-repeat: no-repeat;
       border-radius: 15px;
+      background-origin: content-box;
     }
 
     .card123:nth-child(2) .face.face2 {
       background-color: #F2F2F2;
-      /* background-image: url(./img/coin.svg);
-      background-size: 150px;
-      background-repeat: no-repeat; */
+      background-image: url(./img/coin.svg) ;
+      background-size: contain;
+      background-repeat: no-repeat;
       border-radius: 15px;
+      background-origin: content-box;
     }
 
     .card123:nth-child(3) .face.face2 {
-      background-image: url(./img/);
+      background-color: #F2F2F2;
+      background-image: url(./img/coin.svg) ;
+      background-size: contain;
+      background-repeat: no-repeat;
       border-radius: 15px;
+      background-origin: content-box;
     }
