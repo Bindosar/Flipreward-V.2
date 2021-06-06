@@ -115,7 +115,7 @@ a {
   background-image: url("./img/ssss.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 300px;
+  margin-bottom: 280px;
   
 
   
@@ -480,24 +480,24 @@ textarea {
   transform: translateY(-15px);
 }
 .serving .container .mainbox > div.cr1 {
-  background-color: #CA72D6;
-  box-shadow: 0px -10px 0px rgba(202, 114, 214, 0.5);
+  background-color: #1F2040;
+  box-shadow: 0px -10px 0px rgba(31, 32, 64, 0.5);
 }
 .serving .container .mainbox > div.cr2 {
-  background-color: #7A72D6;
-  box-shadow: 0px -10px 0px rgba(122, 114, 214, 0.5);
+  background-color: #2E2F60;
+  box-shadow: 0px -10px 0px rgba(46, 47, 96, 0.5);
 }
 .serving .container .mainbox > div.cr3 {
-  background-color: #72CED6;
-  box-shadow: 0px -10px 0px rgba(114, 206, 214, 0.5);
+  background-color: #494A97;
+  box-shadow: 0px -10px 0px rgba(73, 74, 151, 0.5);
 }
 .serving .container .mainbox > div.cr4 {
-  background-color: #95D672;
-  box-shadow: 0px -10px 0px rgba(149, 214, 114, 0.5);
+  background-color: #5A5BAF;
+  box-shadow: 0px -10px 0px rgba(90, 91, 175, 0.5);
 }
 .serving .container .mainbox > div.cr5 {
-  background-color: #95D672;
-  box-shadow: 0px -10px 0px rgba(149, 214, 114, 0.5);
+  background-color: #9F9FD1;
+  box-shadow: 0px -10px 0px rgba(159, 159, 209, 0.5);
 }
 .serving .container .mainbox > div:nth-of-type(1) {
   padding: 15px 0;
@@ -530,16 +530,19 @@ textarea {
   transition: all 0.35s ease-in-out;
 }
 .serving .container .mainbox > div:nth-of-type(2).afr1::after {
-  background-color: #CA72D6;
+  background-color: #1F2040;
 }
 .serving .container .mainbox > div:nth-of-type(2).afr2::after {
-  background-color: #7A72D6;
+  background-color: #2E2F60;
 }
 .serving .container .mainbox > div:nth-of-type(2).afr3::after {
-  background-color: #72CED6;
+  background-color: #494A97;
 }
 .serving .container .mainbox > div:nth-of-type(2).afr4::after {
-  background-color: #95D672;
+  background-color: #5A5BAF;
+}
+.serving .container .mainbox > div:nth-of-type(2).afr5::after {
+  background-color: #9F9FD1;
 }
 .serving .container .mainbox > div:nth-of-type(2) span {
   color: #000;
@@ -655,7 +658,7 @@ textarea {
 
     .card123:nth-child(1) .face.face2 {
       background-color: #F2F2F2;
-      background-image: url(./img/coin.svg) ;
+      background-image: url(./img/review.svg) ;
       background-size: contain;
       background-repeat: no-repeat;
       border-radius: 15px;
@@ -665,7 +668,7 @@ textarea {
     .card123:nth-child(2) .face.face2 {
       background-color: #F2F2F2;
       background-image: url(./img/coin.svg) ;
-      background-size: contain;
+      background-size:  contain;
       background-repeat: no-repeat;
       border-radius: 15px;
       background-origin: content-box;
@@ -673,7 +676,7 @@ textarea {
 
     .card123:nth-child(3) .face.face2 {
       background-color: #F2F2F2;
-      background-image: url(./img/coin.svg) ;
+      background-image: url(./img/profit.svg) ;
       background-size: contain;
       background-repeat: no-repeat;
       border-radius: 15px;
