@@ -347,9 +347,33 @@
  .support a:hover {
    transform: scale(1.1);
 }
- 
+      .service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}
+      .btn-primary:hover,
+      .service-btn:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}
+      .btn-primary:focus,
+      .service-btn:focus,
+      .btn-primary.focus,
+      .focus.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040;box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
+      .btn-primary.disabled,.disabled.service-btn,.btn-primary:disabled,.service-btn:disabled{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active,.service-btn:not(:disabled):not(.disabled):active,.btn-primary.active:not(:disabled):not(.disabled),.service-btn.active:not(:disabled):not(.disabled),.show>.btn-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active:focus,.service-btn:not(:disabled):not(.disabled):active:focus,.btn-primary.active:not(:disabled):not(.disabled):focus,.service-btn.active:not(:disabled):not(.disabled):focus,.show>.btn-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn:focus{box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}.btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d}
+      
+      @media (min-width: 992px){.link-container{background:none;border:0;box-sizing:border-box;position:relative;vertical-align:middle;padding:1em}.link-container::before,.link-container::after{box-sizing:inherit;content:'';position:absolute;width:100%;height:100%}.link-container::before,.link-container::after{top:0;left:0;height:100%;width:100%;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center}.link-container::before{border-top:2px solid #E73786;border-bottom:2px solid #E73786;-webkit-transform:scale3d(0, 1, 1);transform:scale3d(0, 1, 1)}.link-container::after{border-left:2px solid #E73786;border-right:2px solid #E73786;-webkit-transform:scale3d(1, 0, 1);transform:scale3d(1, 0, 1)}.link-container:hover::before,.link-container:hover::after{-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1);-webkit-transition:-webkit-transform 0.35s;transition:-webkit-transform 0.35s;transition:transform 0.35s;transition:transform 0.35s, -webkit-transform 0.35s}}
+     
+      @media (prefers-reduced-motion: reduce){.btn{-webkit-transition:none;transition:none}}.btn:hover{color:#212529;text-decoration:none}.btn:focus,.btn.focus{outline:0;box-shadow:0 0 0 0.2rem rgba(6,2,181,0.25)}.btn.disabled,.btn:disabled{opacity:0.65}.btn:not(:disabled):not(.disabled){cursor:pointer}a.btn.disabled,fieldset:disabled a.btn{pointer-events:none}.btn-primary,.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:hover,.service-btn:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:focus,.service-btn:focus,.btn-primary.focus,.focus.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040;box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}.btn-primary.disabled,.disabled.service-btn,.btn-primary:disabled,.service-btn:disabled{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active,.service-btn:not(:disabled):not(.disabled):active,.btn-primary.active:not(:disabled):not(.disabled),.service-btn.active:not(:disabled):not(.disabled),.show>.btn-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active:focus,.service-btn:not(:disabled):not(.disabled):active:focus,.btn-primary.active:not(:disabled):not(.disabled):focus,.service-btn.active:not(:disabled):not(.disabled):focus,.show>.btn-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn:focus{box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
+      .btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d}
+      
+      .service-btn-outline{color:#1F2040;border-color:#1F2040}.btn-outline-primary:hover,.service-btn-outline:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-outline-primary:focus,.service-btn-outline:focus,.btn-outline-primary.focus,.focus.service-btn-outline{box-shadow:0 0 0 0.2rem rgba(6,2,181,0.5)}.btn-outline-primary.disabled,.disabled.service-btn-outline,.btn-outline-primary:disabled,.service-btn-outline:disabled{color:#1F2040;background-color:transparent}.btn-outline-primary:not(:disabled):not(.disabled):active,.service-btn-outline:not(:disabled):not(.disabled):active,.btn-outline-primary.active:not(:disabled):not(.disabled),.service-btn-outline.active:not(:disabled):not(.disabled),.show>.btn-outline-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn-outline{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.service-btn-outline:not(:disabled):not(.disabled):active:focus,.btn-outline-primary.active:not(:disabled):not(.disabled):focus,.service-btn-outline.active:not(:disabled):not(.disabled):focus,.show>.btn-outline-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn-outline:focus{box-shadow:0 0 0 0.2rem rgba(6,2,181,0.5)}.btn-outline-secondary{color:#6c757d;border-color:#6c757d}.btn-outline-secondary:hover{color:#fff;background-color:#6c757d;border-color:#6c757d}.btn-outline-secondary:focus,.btn-outline-secondary.focus{box-shadow:0 0 0 0.2rem rgba(108,117,125,0.5)}.btn-outline-secondary.disabled,.btn-outline-secondary:disabled{color:#6c757d;background-color:transparent}
+      
+      .service-btn .icon-baseline{display:-webkit-inline-box;display:inline-flex;align-self:center;margin-right:0.25em;margin-left:0.25em}.service-btn .icon-baseline svg{width:1em;height:1em;top:.125em;position:relative}.service-btn .icon-baseline svg path{fill:white}.service-btn-outline .icon-baseline{display:-webkit-inline-box;display:inline-flex;align-self:center;margin-right:0.25em;margin-left:0.25em}.service-btn-outline .icon-baseline svg{width:1em;height:1em;top:.125em;position:relative}.service-btn-outline .icon-baseline svg path{fill:#1F2040}.service-btn-outline:hover .icon-baseline svg path,.service-btn-outline.active .icon-baseline svg path,.service-btn-outline:focus .icon-baseline svg path,.service-btn-outline:active .icon-baseline svg path{fill:white !important}.header-btns{display:-webkit-box;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center}
+      
+      .service-btn-homepage{text-decoration:none !important;color:#1F2040;cursor:pointer}.service-btn-homepage:hover .service-name{color:#E73786}.service-btn-homepage:hover svg path{fill:#E73786 !important}.service-btn-homepage .service-name{-webkit-transition:color 0.15s ease-in-out;transition:color 0.15s ease-in-out}
+      
+      .service-icon{display:block;width:40px;height:40px}.service-row{position:relative}.service-row::before{content:"";position:absolute;width:100%;height:100%;left:0;top:0;background:#ededed}@media (min-width: 992px){.billboard-img{position:relative;top:-8.9em}.service-row::before{width:120%}}.grid{display:grid;grid-template-columns:50% 50%;grid-template-rows:repeat(auto-fit, minmax(200px, 1fr))}
+      
+      .service-header .service-icon{height:60px !important;width:60px !important}.service-header .service-icon path{fill:white !important}.service-header .service-title{text-transform:uppercase}.service-header .service-description{font-weight:200 !important}
+      
+     .text-secondary{color:#6c757d !important}a.text-secondary:hover,a.text-secondary:focus{color:#494f54 !important}
     </style>
-    <title>Flipreward</title>
+     <title>Flipreward</title>
     <link rel="Flipreward" type="image/png" href="./img/FliprewardLogo.png"/>
     
   </head>
@@ -384,8 +408,6 @@
       </h1>
       <button style="margin-left: 100px;" type="button" id="joinUsBtn" class="btn btn-secondary joinUsBtn">Join us</button>
     </div>
-     
-   
     </div> 
    </section>
     <!------------------------------------ landing page ending ---------------------------------------------->
@@ -395,9 +417,8 @@
     <h1 style="font-size: 4.5rem; color: #1F2040; font-weight: 700;">Why Loyalty</h1>
   </section>
     <section class="section2">
-     
       <div class="cardconatiner" style="display: flex; justify-content: space-around;"> 
-        <div class="card123" style="margin-top: 100px;">
+        <div class="card123" style="margin-top: 300px;">
           <div class="face face1">
             <div class="content">
               <span class="stars"></span>
@@ -423,7 +444,7 @@
           </div>
         </div>
       
-        <div class="card123" style="margin-top: 300px;">
+        <div class="card123" style="margin-top: 100px;">
           <div class="face face1">
             <div class="content">
               <span class="stars"></span>
@@ -437,9 +458,286 @@
         </div>
       </div>
     </div>
-    <h1 style="font-size: 4.5rem; color: #1F2040; margin-top: 50px; font-weight: 700;">Flipreward Tablet</h1>
+    <h1 style="font-size: 4.5rem; color: #1F2040; margin-top: 90px; font-weight: 700;">Flipreward Tablet</h1>
     </section>
     <!------------------------------------ why loyalty page ending ---------------------------------------------->
+
+    <!------------------------------------ 9 sections ---------------------------------------------->
+    <section>
+      <div style="display:flex; max-width: 800px; flex-wrap: wrap;">
+    <div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+      <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+      <div class="link-container h-100" style="max-width: 400px;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+    <style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+    <g data-name="Layer 4">
+        <g data-name="<Group>">
+            <g data-name="<Group>">
+                <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+            </g>
+            <g data-name="<Group>">
+                <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+            </g>
+        </g>
+    </g>
+</g>
+</svg>
+
+        <h5 class="mt-3 mb-3">
+          <strong class="service-name">PHOTOGRAPHY</strong>
+        </h5>
+        <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+      </div>
+    </a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+  </div>
+</a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+  </div>
+</a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+  </div>
+</a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+  </div>
+</a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+  </div>
+</a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+  </div>
+</a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+  </div>
+</a>  
+</div>
+
+<div class="col-md-4 col-sm-6 mt-2 mb-1" style="max-width: 400px;">
+  <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
+  <div class="link-container h-100" style="max-width: 400px;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.73 72.39" class="service-icon">
+<defs>
+<style>.cls-1{fill:#1201d8;}</style>
+</defs>
+<title>photography_icon</title>
+<g data-name="Layer 2">
+<g data-name="Layer 4">
+    <g data-name="<Group>">
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M80.15,72.39H2.59A2.59,2.59,0,0,1,0,69.81V12.93a2.59,2.59,0,0,1,2.59-2.59H19.08l4.46-8.91A2.58,2.58,0,0,1,25.85,0h31a2.58,2.58,0,0,1,2.31,1.43l4.46,8.91h16.5a2.58,2.58,0,0,1,2.58,2.59V69.81A2.58,2.58,0,0,1,80.15,72.39Zm-75-5.17H77.56V15.51H62.05a2.58,2.58,0,0,1-2.31-1.43L55.28,5.17H27.45L23,14.08a2.59,2.59,0,0,1-2.32,1.43H5.17Z"></path>
+        </g>
+        <g data-name="<Group>">
+            <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path>
+        </g>
+    </g>
+</g>
+</g>
+</svg>
+
+    <h5 class="mt-3 mb-3">
+      <strong class="service-name">PHOTOGRAPHY</strong>
+    </h5>
+    <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p>
+            </div>
+          </a>  
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ 9 sections  ending ---------------------------------------------->
+
 
         <!------------------------------------ tablet steps page ---------------------------------------------->
           
