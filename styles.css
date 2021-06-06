@@ -117,12 +117,14 @@ a {
   /* margin-left: 100px; */
   background-color: #E73786;
   border: none;
+  color: white;
   
 }
 
-#joinUsBtn:hover{
+.joinUsBtn:hover{
   background-color: 
   #7E7E7E;
+  color: #000;
 }
 
 .section2 {
