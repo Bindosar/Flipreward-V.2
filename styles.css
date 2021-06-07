@@ -102,8 +102,9 @@ a {
   width: 500px;
   margin-top: -40px;
   /* margin-right: 700px; */
-  font-size: 37px;
+  font-size: 47px;
   text-align: left;
+  font-family: 'Dancing Script', cursive;
   margin-left: 90px;
   margin-bottom: 30px;
  
@@ -194,12 +195,12 @@ textarea {
 .section3{
   height: 97vh;
   background-image: url("./img/footer.png")  ;
-
-  background-repeat: no-repeat;
-  background-size: cover;
   /* position: relative; */
 }
+.footerBackGroundColor{
+  background-color: #1F2040;
 
+}
 
 .socials-wrapper > h2 {
   background: #fff;
