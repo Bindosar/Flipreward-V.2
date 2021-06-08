@@ -4,71 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
+
     <style>
+        /* body {
+  font-family: Arial, sans-serif;
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+} */
 
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
 
- 
- .service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}
- .btn-primary:hover,
- .service-btn:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}
- .btn-primary:focus,
- .service-btn:focus,
- .btn-primary.focus,
- .focus.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040;box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
- .btn-primary.disabled,.disabled.service-btn,.btn-primary:disabled,.service-btn:disabled{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active,.service-btn:not(:disabled):not(.disabled):active,.btn-primary.active:not(:disabled):not(.disabled),.service-btn.active:not(:disabled):not(.disabled),.show>.btn-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active:focus,.service-btn:not(:disabled):not(.disabled):active:focus,.btn-primary.active:not(:disabled):not(.disabled):focus,.service-btn.active:not(:disabled):not(.disabled):focus,.show>.btn-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn:focus{box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
- /* .btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d} */
- 
- @media (min-width: 992px){.link-container{background:none;border:0;box-sizing:border-box;position:relative;vertical-align:middle;padding:1em}.link-container::before,.link-container::after{box-sizing:inherit;content:'';position:absolute;width:100%;height:100%}.link-container::before,.link-container::after{top:0;left:0;height:100%;width:100%;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center}.link-container::before{border-top:2px solid #E73786;border-bottom:2px solid #E73786;-webkit-transform:scale3d(0, 1, 1);transform:scale3d(0, 1, 1)}.link-container::after{border-left:2px solid #E73786;border-right:2px solid #E73786;-webkit-transform:scale3d(1, 0, 1);transform:scale3d(1, 0, 1)}.link-container:hover::before,.link-container:hover::after{-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1);-webkit-transition:-webkit-transform 0.35s;transition:-webkit-transform 0.35s;transition:transform 0.35s;transition:transform 0.35s, -webkit-transform 0.35s}}
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
 
- @media (prefers-reduced-motion: reduce){.btn{-webkit-transition:none;transition:none}}.btn:hover{color:#212529;text-decoration:none}.btn:focus,.btn.focus{outline:0;box-shadow:0 0 0 0.2rem rgba(6,2,181,0.25)}.btn.disabled,.btn:disabled{opacity:0.65}.btn:not(:disabled):not(.disabled){cursor:pointer}a.btn.disabled,fieldset:disabled a.btn{pointer-events:none}.btn-primary,.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:hover,.service-btn:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:focus,.service-btn:focus,.btn-primary.focus,.focus.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040;box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}.btn-primary.disabled,.disabled.service-btn,.btn-primary:disabled,.service-btn:disabled{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active,.service-btn:not(:disabled):not(.disabled):active,.btn-primary.active:not(:disabled):not(.disabled),.service-btn.active:not(:disabled):not(.disabled),.show>.btn-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active:focus,.service-btn:not(:disabled):not(.disabled):active:focus,.btn-primary.active:not(:disabled):not(.disabled):focus,.service-btn.active:not(:disabled):not(.disabled):focus,.show>.btn-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn:focus{box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
- /* .btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d} */
- 
- .service-btn-outline{color:#1F2040;border-color:#1F2040}.btn-outline-primary:hover,.service-btn-outline:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-outline-primary:focus,.service-btn-outline:focus,.btn-outline-primary.focus,.focus.service-btn-outline{box-shadow:0 0 0 0.2rem rgba(6,2,181,0.5)}.btn-outline-primary.disabled,.disabled.service-btn-outline,.btn-outline-primary:disabled,.service-btn-outline:disabled{color:#1F2040;background-color:transparent}.btn-outline-primary:not(:disabled):not(.disabled):active,.service-btn-outline:not(:disabled):not(.disabled):active,.btn-outline-primary.active:not(:disabled):not(.disabled),.service-btn-outline.active:not(:disabled):not(.disabled),.show>.btn-outline-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn-outline{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.service-btn-outline:not(:disabled):not(.disabled):active:focus,.btn-outline-primary.active:not(:disabled):not(.disabled):focus,.service-btn-outline.active:not(:disabled):not(.disabled):focus,.show>.btn-outline-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn-outline:focus{box-shadow:0 0 0 0.2rem rgba(6,2,181,0.5)}.btn-outline-secondary{color:#6c757d;border-color:#6c757d}.btn-outline-secondary:hover{color:#fff;background-color:#6c757d;border-color:#6c757d}.btn-outline-secondary:focus,.btn-outline-secondary.focus{box-shadow:0 0 0 0.2rem rgba(108,117,125,0.5)}.btn-outline-secondary.disabled,.btn-outline-secondary:disabled{color:#6c757d;background-color:transparent}
- 
- .service-btn .icon-baseline{display:-webkit-inline-box;display:inline-flex;align-self:center;margin-right:0.25em;margin-left:0.25em}.service-btn .icon-baseline svg{width:1em;height:1em;top:.125em;position:relative}.service-btn .icon-baseline svg path{fill:white}.service-btn-outline .icon-baseline{display:-webkit-inline-box;display:inline-flex;align-self:center;margin-right:0.25em;margin-left:0.25em}.service-btn-outline .icon-baseline svg{width:1em;height:1em;top:.125em;position:relative}.service-btn-outline .icon-baseline svg path{fill:#1F2040}.service-btn-outline:hover .icon-baseline svg path,.service-btn-outline.active .icon-baseline svg path,.service-btn-outline:focus .icon-baseline svg path,.service-btn-outline:active .icon-baseline svg path{fill:white !important}.header-btns{display:-webkit-box;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center}
- 
- .service-btn-homepage{text-decoration:none !important;color:#1F2040;cursor:pointer}.service-btn-homepage:hover .service-name{color:#E73786}.service-btn-homepage:hover svg path{fill:#E73786 !important}.service-btn-homepage .service-name{-webkit-transition:color 0.15s ease-in-out;transition:color 0.15s ease-in-out}
- 
- .service-icon{display:block;width:40px;height:40px}.service-row{position:relative}.service-row::before{content:"";position:absolute;width:100%;height:100%;left:0;top:0;background:#ededed}@media (min-width: 992px){.billboard-img{position:relative;top:-8.9em}.service-row::before{width:120%}}.grid{display:grid;grid-template-columns:50% 50%;grid-template-rows:repeat(auto-fit, minmax(200px, 1fr))}
- 
- .service-header .service-icon{height:60px !important;width:60px !important}.service-header .service-icon path{fill:white !important}.service-header .service-title{text-transform:uppercase}.service-header .service-description{font-weight:200 !important}
- 
-.text-secondary{color:#6c757d !important}a.text-secondary:hover,a.text-secondary:focus{color:#494f54 !important}
+.popupbtn {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.popupbtn:hover {
+  background: #06D85F;
+}
 
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
 
+.popup {
+  margin: 70px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 120px;
+  background: #fff;
+  border-radius: 5px;
+  width: 48%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
 
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #E73786;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
 
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
     </style>
 </head>
 <body>
-    <div class="col-md-4 col-sm-6 mt-2 mb-1" style="width: 180px; ">
-        <a class="service-btn-homepage" href="/en/services/photography" style="max-width: 400px;">
-        <div class="link-container h-100" style="max-width: 400px;">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="service-icon" style="margin-right: auto; margin-left: auto; padding-top:10px">
-  <defs>
-      <style>.cls-1{fill:#1201d8;}</style>
-  </defs>
-  <title>photography_icon</title>
-  <g data-name="Layer 2">
-      <g data-name="Layer 4">
-          <g data-name="<Group>">
-              <g data-name="<Group>">
-                  <path data-name="<Compound Path>" class="cls-1" d="M469.717,129.996h-9.91c-4.002,0-7.871,0.571-11.542,1.615c-3.741-19.515-20.93-34.309-41.519-34.309h-9.909    c-23.315,0-42.284,18.969-42.284,42.283v68.248H157.446v-76.607c0-23.315-18.969-42.283-42.283-42.283h-9.909    c-20.589,0-37.778,14.794-41.518,34.309c-3.672-1.044-7.541-1.615-11.543-1.615h-9.909C18.969,121.637,0,140.604,0,163.92V339.72    c0,23.315,18.969,42.283,42.283,42.283h9.909c4.002,0,7.871-0.571,11.543-1.615c3.741,19.515,20.93,34.309,41.518,34.309h9.909    c23.315,0,42.283-18.969,42.283-42.283v-61.402h197.107v69.762c0,23.315,18.969,42.283,42.284,42.283h9.909    c20.589,0,37.779-14.795,41.519-34.309c3.671,1.044,7.541,1.615,11.542,1.615h9.91c23.314,0,42.283-18.969,42.283-42.283V172.279    C512,148.964,493.031,129.996,469.717,129.996z M62.971,339.72c0,5.944-4.835,10.78-10.779,10.78h-9.909    c-5.944,0-10.779-4.836-10.779-10.78V163.92c0-5.944,4.835-10.779,10.779-10.779h9.909c5.944,0,10.779,4.835,10.779,10.779V339.72    z M125.942,372.415c0,5.944-4.835,10.779-10.779,10.779h-9.909c-5.944,0-10.779-4.835-10.779-10.779V131.224    c0-5.944,4.836-10.779,10.779-10.779h9.909c5.944,0,10.779,4.835,10.779,10.779V372.415z M354.554,279.509H157.446v-40.173    h197.107V279.509z M417.525,380.775c0,5.944-4.835,10.779-10.78,10.779h-9.909c-5.944,0-10.78-4.835-10.78-10.779V139.584    c0-5.944,4.835-10.779,10.78-10.779h9.909c5.944,0,10.78,4.835,10.78,10.779V380.775z M480.496,348.079    c0,5.944-4.835,10.779-10.779,10.779h-9.91c-5.943,0-10.779-4.835-10.779-10.779V172.279c0-5.944,4.835-10.779,10.779-10.779h9.91    c5.943,0,10.779,4.835,10.779,10.779V348.079z"></path>
-              </g>
-              <g data-name="<Group>">
-                  <!-- <path data-name="<Compound Path>" class="cls-1" d="M41.37,56.88a18.1,18.1,0,1,1,18.09-18.1A18.12,18.12,0,0,1,41.37,56.88Zm0-31A12.93,12.93,0,1,0,54.29,38.78,12.94,12.94,0,0,0,41.37,25.85Z"></path> -->
-              </g>
-          </g>
-      </g>
-  </g>
-</svg>
+    
 
-          <h5 class="mt-3 mb-3" style="text-align: center;">
-            <strong class="service-name">PHOTOGRAPHY</strong>
-          </h5>
-          <!-- <p class="text-secondary">We offer the services of eye-catching photographers to meet all your needs.</p> -->
+
+    <div class="box">
+        <a class="popupbtn" href="#popup1">Let me Pop up</a>
+    </div>
+    
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h4 style="color: #E73786; font-weight: 300; margin-bottom: 10px;">One Step Ahead To Join
+            </h4>
+            <h2 style="color:#1F2040; font-weight: 600; font-size: 25px;margin-bottom: 20px;">Please Fill Out Your Information Details, We Will Be Contacting You Soon!
+            </h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <!-- <form style="margin-top: 10px;  width: 700px; ">   
+
+        <input name="Your Name" type="text" class="feedback-input" placeholder="Name" style="width: 300px; " /> 
+
+        <input name="Email Address" type="text" class="feedback-input" placeholder="Email"  style="width: 300px;"/>
+        
+        <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 300px;"></textarea>
+
+        <button type="submit">Submit</button>
+      </form> -->
+
+
+      <form>
+
+        <div style="display: flex;">
+        <div class="form-group">
+          <input type="name" class="form-control feedback-input" id="exampleInputName" placeholder="Name" style="margin-right: 15px;" required="required">
         </div>
-</a>        </div>
+
+
+        <div class="form-group">
+          <input type="email" class="form-control feedback-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail"required="required">
+        </div>
+       </div>
+
+        <div class="form-group">
+          <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 480px;"required="required"></textarea>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
