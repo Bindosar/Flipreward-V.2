@@ -1,0 +1,36 @@
+/* @media screen and (min-width: 375px)and(max-width:770px) {
+    body{
+        overflow-x: hidden;
+        font-family: 'Lato', sans-serif;
+        background-color: #F2F2F2;
+        background-color: aqua;
+      }
+  
+  
+    .rightshape{
+       width: 100px;
+   }
+  } */
+
+  @media only screen 
+  and (max-width : 375px) 
+  /* and (device-height : 812px)  */
+  /* and (-webkit-device-pixel-ratio : 3) */
+   { 
+
+body{
+background-color: aqua;
+}
+.rightshape{
+width: 40px;
+margin-left: 10%
+
+}
+.tablet{
+width: 30px;
+}
+.whyloyalty{
+font-size: 10px;
+}
+
+  }

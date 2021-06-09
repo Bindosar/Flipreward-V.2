@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     
-
+    <link rel="stylesheet" href="./media.css">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -36,6 +36,10 @@
    --card-height: 300px;
    --card-transition-duration: 800ms;
    --card-transition-easing: ease;
+}
+img {
+  width: 100%;
+  height: auto;
 }
 
  /* * {
@@ -329,12 +333,12 @@
    transform: scaleX(0);
    transform-origin: left;
 }
- @media only screen and (min-width: 800px) {
+ /* @media only screen and (min-width: 800px) {
    :root {
      --card-width: 400px;
      --card-height: 400px;
   }
-}
+} */
  .support {
    position: absolute;
    right: 10px;
@@ -361,10 +365,12 @@
       .focus.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040;box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
       .btn-primary.disabled,.disabled.service-btn,.btn-primary:disabled,.service-btn:disabled{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active,.service-btn:not(:disabled):not(.disabled):active,.btn-primary.active:not(:disabled):not(.disabled),.service-btn.active:not(:disabled):not(.disabled),.show>.btn-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active:focus,.service-btn:not(:disabled):not(.disabled):active:focus,.btn-primary.active:not(:disabled):not(.disabled):focus,.service-btn.active:not(:disabled):not(.disabled):focus,.show>.btn-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn:focus{box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
       /* .btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d} */
+/*       
+      @media (min-width: 992px){.link-container{background:none;border:0;box-sizing:border-box;position:relative;vertical-align:middle;padding:1em}.link-container::before,.link-container::after{box-sizing:inherit;content:'';position:absolute;width:100%;height:100%}.link-container::before,.link-container::after{top:0;left:0;height:100%;width:100%;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center}.link-container::before{border-top:2px solid #E73786;border-bottom:2px solid #E73786;-webkit-transform:scale3d(0, 1, 1);transform:scale3d(0, 1, 1)}.link-container::after{border-left:2px solid #E73786;border-right:2px solid #E73786;-webkit-transform:scale3d(1, 0, 1);transform:scale3d(1, 0, 1)}.link-container:hover::before,.link-container:hover::after{-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1);-webkit-transition:-webkit-transform 0.35s;transition:-webkit-transform 0.35s;transition:transform 0.35s;transition:transform 0.35s, -webkit-transform 0.35s}} */
+/*      
+      @media (prefers-reduced-motion: reduce){.btn{-webkit-transition:none;transition:none}} */
       
-      @media (min-width: 992px){.link-container{background:none;border:0;box-sizing:border-box;position:relative;vertical-align:middle;padding:1em}.link-container::before,.link-container::after{box-sizing:inherit;content:'';position:absolute;width:100%;height:100%}.link-container::before,.link-container::after{top:0;left:0;height:100%;width:100%;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center}.link-container::before{border-top:2px solid #E73786;border-bottom:2px solid #E73786;-webkit-transform:scale3d(0, 1, 1);transform:scale3d(0, 1, 1)}.link-container::after{border-left:2px solid #E73786;border-right:2px solid #E73786;-webkit-transform:scale3d(1, 0, 1);transform:scale3d(1, 0, 1)}.link-container:hover::before,.link-container:hover::after{-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1);-webkit-transition:-webkit-transform 0.35s;transition:-webkit-transform 0.35s;transition:transform 0.35s;transition:transform 0.35s, -webkit-transform 0.35s}}
-     
-      @media (prefers-reduced-motion: reduce){.btn{-webkit-transition:none;transition:none}}.btn:hover{color:#212529;text-decoration:none}.btn:focus,.btn.focus{outline:0;box-shadow:0 0 0 0.2rem rgba(6,2,181,0.25)}.btn.disabled,.btn:disabled{opacity:0.65}.btn:not(:disabled):not(.disabled){cursor:pointer}a.btn.disabled,fieldset:disabled a.btn{pointer-events:none}.btn-primary,.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:hover,.service-btn:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:focus,.service-btn:focus,.btn-primary.focus,.focus.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040;box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}.btn-primary.disabled,.disabled.service-btn,.btn-primary:disabled,.service-btn:disabled{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active,.service-btn:not(:disabled):not(.disabled):active,.btn-primary.active:not(:disabled):not(.disabled),.service-btn.active:not(:disabled):not(.disabled),.show>.btn-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active:focus,.service-btn:not(:disabled):not(.disabled):active:focus,.btn-primary.active:not(:disabled):not(.disabled):focus,.service-btn.active:not(:disabled):not(.disabled):focus,.show>.btn-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn:focus{box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
+      .btn:hover{color:#212529;text-decoration:none}.btn:focus,.btn.focus{outline:0;box-shadow:0 0 0 0.2rem rgba(6,2,181,0.25)}.btn.disabled,.btn:disabled{opacity:0.65}.btn:not(:disabled):not(.disabled){cursor:pointer}a.btn.disabled,fieldset:disabled a.btn{pointer-events:none}.btn-primary,.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:hover,.service-btn:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:focus,.service-btn:focus,.btn-primary.focus,.focus.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040;box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}.btn-primary.disabled,.disabled.service-btn,.btn-primary:disabled,.service-btn:disabled{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active,.service-btn:not(:disabled):not(.disabled):active,.btn-primary.active:not(:disabled):not(.disabled),.service-btn.active:not(:disabled):not(.disabled),.show>.btn-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-primary:not(:disabled):not(.disabled):active:focus,.service-btn:not(:disabled):not(.disabled):active:focus,.btn-primary.active:not(:disabled):not(.disabled):focus,.service-btn.active:not(:disabled):not(.disabled):focus,.show>.btn-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn:focus{box-shadow:0 0 0 0.2rem rgba(43,40,192,0.5)}
       /* .btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d} */
       
       .service-btn-outline{color:#1F2040;border-color:#1F2040}.btn-outline-primary:hover,.service-btn-outline:hover{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-outline-primary:focus,.service-btn-outline:focus,.btn-outline-primary.focus,.focus.service-btn-outline{box-shadow:0 0 0 0.2rem rgba(6,2,181,0.5)}.btn-outline-primary.disabled,.disabled.service-btn-outline,.btn-outline-primary:disabled,.service-btn-outline:disabled{color:#1F2040;background-color:transparent}.btn-outline-primary:not(:disabled):not(.disabled):active,.service-btn-outline:not(:disabled):not(.disabled):active,.btn-outline-primary.active:not(:disabled):not(.disabled),.service-btn-outline.active:not(:disabled):not(.disabled),.show>.btn-outline-primary.dropdown-toggle,.show>.dropdown-toggle.service-btn-outline{color:#fff;background-color:#1F2040;border-color:#1F2040}.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.service-btn-outline:not(:disabled):not(.disabled):active:focus,.btn-outline-primary.active:not(:disabled):not(.disabled):focus,.service-btn-outline.active:not(:disabled):not(.disabled):focus,.show>.btn-outline-primary.dropdown-toggle:focus,.show>.dropdown-toggle.service-btn-outline:focus{box-shadow:0 0 0 0.2rem rgba(6,2,181,0.5)}.btn-outline-secondary{color:#6c757d;border-color:#6c757d}.btn-outline-secondary:hover{color:#fff;background-color:#6c757d;border-color:#6c757d}.btn-outline-secondary:focus,.btn-outline-secondary.focus{box-shadow:0 0 0 0.2rem rgba(108,117,125,0.5)}.btn-outline-secondary.disabled,.btn-outline-secondary:disabled{color:#6c757d;background-color:transparent}
@@ -373,7 +379,9 @@
       
       .service-btn-homepage{text-decoration:none !important;color:#1F2040;cursor:pointer}.service-btn-homepage:hover .service-name{color:#E73786}.service-btn-homepage:hover svg path{fill:#E73786 !important}.service-btn-homepage .service-name{-webkit-transition:color 0.15s ease-in-out;transition:color 0.15s ease-in-out}
       
-      .service-icon{display:block;width:50px;height:50px}.service-row{position:relative}.service-row::before{content:"";position:absolute;width:100%;height:100%;left:0;top:0;background:#ededed}@media (min-width: 992px){.billboard-img{position:relative;top:-8.9em}.service-row::before{width:120%}}.grid{display:grid;grid-template-columns:50% 50%;grid-template-rows:repeat(auto-fit, minmax(200px, 1fr))}
+      .service-icon{display:block;width:50px;height:50px}.service-row{position:relative}.service-row::before{content:"";position:absolute;width:100%;height:100%;left:0;top:0;background:#ededed}
+      
+      /* @media (min-width: 992px){.billboard-img{position:relative;top:-8.9em}.service-row::before{width:120%}}.grid{display:grid;grid-template-columns:50% 50%;grid-template-rows:repeat(auto-fit, minmax(200px, 1fr))} */
       
       .service-header .service-icon{height:60px !important;width:60px !important}.service-header .service-icon path{fill:white !important}.service-header .service-title{text-transform:uppercase}.service-header .service-description{font-weight:200 !important}
       
@@ -387,7 +395,7 @@
         <!------------------------------------ landing page  ---------------------------------------------->
 
     <section class="section1" style="margin-bottom: 100px;">
-      <img src="./img/rightthing.png" style="width: 700px;  position: absolute; margin-left: 50%;" alt="">
+      <img  class="rightshape" src="./img/rightthing.png" style="width: 700px;  position: absolute; margin-left: 50%;" alt="">
 
       <div >
       <a href="./index.html">
@@ -416,16 +424,63 @@
         regular customers into<br />
         your shop
       </h1>
-      <a href="" style="margin-left: 90px; font-size: 20px; text-decoration: underline; cursor: pointer ; color: #E73786;"  >Join us</a>
+      <a href="#popup1" style="margin-left: 90px; font-size: 20px; text-decoration: underline; cursor: pointer ; color: #E73786;   position: relative;" class="popupbtn" >Join us</a>
+
+
+
+
+<!-- ------------------------------------popup------------------------- -->
+ 
+      <div id="popup1" class="overlay">
+        <div class="popup">
+            <h4 style="color: #E73786; font-weight: 300; margin-bottom: 10px;font-size: 15px;">One Step Ahead To Join
+            </h4>
+            <h2 style="color:#1F2040; font-weight: 600; font-size: 25px;margin-bottom: 20px;">Please Fill Out Your Information Details, We Will Be Contacting You Soon!
+            </h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+           
+
+
+      <form>
+
+        <div style="display: flex;">
+        <div class="form-group">
+          <input type="name" class="form-control feedback-input" id="exampleInputName" placeholder="Name" style="margin-right: 10px; width: 235px;" required="required">
+        </div>
+
+
+        <div class="form-group">
+          <input type="email" class="form-control feedback-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail"required="required" style=" width: 235px;">
+        </div>
+       </div>
+
+        <div class="form-group">
+          <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 480px;"required="required"></textarea>
+        </div>
+
+
+        <button style="background-color:#E73786 ;"  onMouseOver="this.style.background='#7E7E7E'"
+        onMouseOut="this.style.background='#E73786'"
+     type="submit" class="btn btn-primary submitbtn">Submit</button>
+      </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
     <!-- </div> -->
 </div>
-    <img src="./img/copedTabelt.png" style="width: 660px;  position: relative;   margin-top: 9%; " alt="">
+    <img class="tablet" src="./img/copedTabelt.png" style="width: 660px;  position: relative;   margin-top: 9%; " alt="">
     </div> 
    </section>
     <!------------------------------------ landing page ending ---------------------------------------------->
 
     <section class="section1" style="margin-bottom: 200px;">
-      <h1 style="font-size: 4.5rem; color: #1F2040; margin-top: 60px; font-weight: 700; margin-bottom: 100px;">Why Loyalty
+      <h1 class="whyloyalty" style="font-size: 4.5rem; color: #1F2040; margin-top: 60px; font-weight: 700; margin-bottom: 100px;">Why Loyalty
       </h1>
       <img src="./img/Path 13.png" style="width: 650px;  position: absolute; " alt="">
 
@@ -1118,7 +1173,7 @@
           <h2 style="font-size: 3rem; font-weight: 600; color: white; text-align: center; margin-top: 125px;" >It’s very easy 
              to get started
           </h2>
-          <button style="margin-bottom: 30px; margin-left: 40%;" type="button"  class="btn  joinUsBtn">Join us</button>
+         <a class="popupbtn" href="#popup1"> <button style="margin-bottom: 30px; margin-left: 40%;" type="button"  class="btn  joinUsBtn">Join us</button></a>
 
 
 <div  style="margin-left: 30.6%;">
