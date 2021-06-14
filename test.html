@@ -1,17 +1,166 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-img {
-  width: 100%;
-  height: auto;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+
+    <style>
+        /* body {
+  font-family: Arial, sans-serif;
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+} */
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
 }
-</style>
+
+/* .box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+} */
+
+.popupbtn {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.popupbtn:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 120px;
+  background: #fff;
+  border-radius: 5px;
+  width: 48%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #E73786;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+    </style>
 </head>
 <body>
+    
 
-<img src="./img/dash.png" width="460" height="345">
-<p>Resize the browser window to see how the image will scale.</p>
+
+    <div class="box">
+        <a class="popupbtn" href="#popup1">Let me Pop up</a>
+    </div>
+    
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h4 style="color: #E73786; font-weight: 300; margin-bottom: 10px;">One Step Ahead To Join
+            </h4>
+            <h2 style="color:#1F2040; font-weight: 600; font-size: 25px;margin-bottom: 20px;">Please Fill Out Your Information Details, We Will Be Contacting You Soon!
+            </h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <!-- <form style="margin-top: 10px;  width: 700px; ">   
+
+        <input name="Your Name" type="text" class="feedback-input" placeholder="Name" style="width: 300px; " /> 
+
+        <input name="Email Address" type="text" class="feedback-input" placeholder="Email"  style="width: 300px;"/>
+        
+        <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 300px;"></textarea>
+
+        <button type="submit">Submit</button>
+      </form> -->
+
+
+      <form>
+
+        <div style="display: flex;">
+        <div class="form-group">
+          <input type="name" class="form-control feedback-input" id="exampleInputName" placeholder="Name" style="margin-right: 15px;" required="required">
+        </div>
+
+
+        <div class="form-group">
+          <input type="email" class="form-control feedback-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail"required="required">
+        </div>
+       </div>
+
+        <div class="form-group">
+          <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 480px;"required="required"></textarea>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
