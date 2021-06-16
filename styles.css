@@ -500,7 +500,7 @@ margin-left: 45px;
   /* margin-right: 700px; */
   font-size: 47px;
   text-align: left;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'BioRhyme', serif;
   margin-left: 90px;
   margin-bottom: 30px;
   color: #1F2040;
@@ -572,11 +572,13 @@ margin-left: 45px;
 
 }
 
+
+
 .explore{
   font-size: 4.5rem; color: #1F2040; margin-top: 60px; font-weight: 700; margin-bottom: 100px;
 }
 .exploreContainer{
-  display:flex; width: 900px; flex-wrap: wrap;  justify-content: space-around; margin-bottom: 300px; position: relative; margin-left: auto; margin-right: auto;
+  display:flex; width: 900px; flex-wrap: wrap;  justify-content: space-around; margin-bottom: 200px; position: relative; margin-left: auto; margin-right: auto;
 }
 .exploreTitle{
   width: 200px; margin-right: 30px;
