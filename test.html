@@ -1,166 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./test.scss"> -->
+  <title>Document</title>
 
-    <style>
-        /* body {
-  font-family: Arial, sans-serif;
-  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
-  background-size: cover;
-  height: 100vh;
-} */
+  <style>
+   }
+ a {
+	 text-decoration: none;
+}
+ h1 {
+	 text-align: center;
+	 font-family: 'Lato', sans-serif;
+	 font-size: 25px;
+	 line-height: 32px;
+	 padding-top: 70px;
+}
+ h1 a {
+	 color: #6cc;
+}
+ .price-table-wrapper {
+	 font-family: 'Lato', sans-serif;
+	 text-align: center;
+	 margin-top: 30px;
+}
+ .price-table-wrapper .featured-table {
+	 box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+}
+ .price-table-wrapper .pricing-table {
+	 display: inline-block;
+	 border: 1px solid #c8c8c8;
+	 border-radius: 10px;
+	 background: white;
+	 margin: 20px;
+	 transition: all 0.3s ease-in-out;
+}
+ .price-table-wrapper .pricing-table__header {
+	 padding: 20px;
+	 font-size: 20px;
+	 color: #909090;
+	 background: #e0e0e0;
+}
+ .price-table-wrapper .pricing-table__price {
+	 color: #6cc;
+	 padding: 20px;
+	 margin: auto;
+	 font-size: 40px;
+	 font-weight: 500;
+}
+ .price-table-wrapper .pricing-table__button {
+	 display: block;
+	 background: #6cc;
+	 text-decoration: none;
+	 padding: 20px;
+	 color: white;
+	 position: relative;
+	 overflow: hidden;
+	 transition: all 0.3s ease-in-out;
+}
+ .price-table-wrapper .pricing-table__button:before {
+	 position: absolute;
+	 left: -20%;
+	 top: -10%;
+	 content: '';
+	 width: 60%;
+	 height: 220%;
+	 transform: rotate(-30deg);
+	 background: white;
+	 opacity: 0.3;
+	 transition: all 0.3s ease-in-out;
+}
+ .price-table-wrapper .pricing-table__button:after {
+	 position: absolute;
+	 content: '>';
+	 top: 0;
+	 right: 0;
+	 font-size: 25px;
+	 padding: 15px;
+	 padding-right: 40px;
+	 color: white;
+	 opacity: 0;
+	 transition: all 0.3s ease-in-out;
+}
+ .price-table-wrapper .pricing-table__button:hover {
+	 background: black;
+}
+ .price-table-wrapper .pricing-table__list {
+	 padding: 20px;
+	 color: #a0a0a0;
+}
+ .price-table-wrapper .pricing-table__list li {
+	 padding: 15px;
+	 border-bottom: 1px solid #c8c8c8;
+}
+ .price-table-wrapper .pricing-table__list li:last-child {
+	 border: none;
+}
+ .price-table-wrapper .pricing-table:hover {
+	 box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+}
+ .price-table-wrapper .pricing-table:hover .pricing-table__button {
+	 padding-left: 0;
+	 padding-right: 35px;
+}
+ .price-table-wrapper .pricing-table:hover .pricing-table__button:before {
+	 top: -80%;
+	 transform: rotate(0deg);
+	 width: 100%;
+}
+ .price-table-wrapper .pricing-table:hover .pricing-table__button:after {
+	 opacity: 1;
+	 padding-right: 15px;
+}
+ 
 
-h1 {
-  text-align: center;
-  font-family: Tahoma, Arial, sans-serif;
-  color: #06D85F;
-  margin: 80px 0;
-}
-
-/* .box {
-  width: 40%;
-  margin: 0 auto;
-  background: rgba(255,255,255,0.2);
-  padding: 35px;
-  border: 2px solid #fff;
-  border-radius: 20px/50px;
-  background-clip: padding-box;
-  text-align: center;
-} */
-
-.popupbtn {
-  font-size: 1em;
-  padding: 10px;
-  color: #fff;
-  border: 2px solid #06D85F;
-  border-radius: 20px/50px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-.popupbtn:hover {
-  background: #06D85F;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 70px auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 120px;
-  background: #fff;
-  border-radius: 5px;
-  width: 48%;
-  position: relative;
-  transition: all 5s ease-in-out;
-}
-
-.popup h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color: #E73786;
-}
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
-
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
-  .popup{
-    width: 70%;
-  }
-}
-    </style>
+  </style>
 </head>
 <body>
-    
+  
 
 
-    <div class="box">
-        <a class="popupbtn" href="#popup1">Let me Pop up</a>
+ 
+<h1>RESPONSIVE PRICING TABLE DESIGN <br> BY <a target="blank" href="http://www.digimadmedia.com">DIGIMAD MEDIA</h1>
+
+  <div class="price-table-wrapper">
+    <div class="pricing-table">
+      <h2 class="pricing-table__header">- BASIC -</h2>
+      <h3 class="pricing-table__price">£50</h3>
+      <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+        Join Now!
+      </a>
+      <ul class="pricing-table__list">
+        <li>30 day free trial</li>
+        <li>50gb storage space</li>
+        <li>20% discount</li>
+        <li>24 hour support</li>
+      </ul>
     </div>
-    
-    <div id="popup1" class="overlay">
-        <div class="popup">
-            <h4 style="color: #E73786; font-weight: 300; margin-bottom: 10px;">One Step Ahead To Join
-            </h4>
-            <h2 style="color:#1F2040; font-weight: 600; font-size: 25px;margin-bottom: 20px;">Please Fill Out Your Information Details, We Will Be Contacting You Soon!
-            </h2>
-            <a class="close" href="#">&times;</a>
-            <div class="content">
-                <!-- <form style="margin-top: 10px;  width: 700px; ">   
-
-        <input name="Your Name" type="text" class="feedback-input" placeholder="Name" style="width: 300px; " /> 
-
-        <input name="Email Address" type="text" class="feedback-input" placeholder="Email"  style="width: 300px;"/>
-        
-        <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 300px;"></textarea>
-
-        <button type="submit">Submit</button>
-      </form> -->
-
-
-      <form>
-
-        <div style="display: flex;">
-        <div class="form-group">
-          <input type="name" class="form-control feedback-input" id="exampleInputName" placeholder="Name" style="margin-right: 15px;" required="required">
-        </div>
-
-
-        <div class="form-group">
-          <input type="email" class="form-control feedback-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail"required="required">
-        </div>
-       </div>
-
-        <div class="form-group">
-          <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 480px;"required="required"></textarea>
-        </div>
-
-
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-            </div>
-        </div>
+    <div class="pricing-table featured-table">
+      <h2 class="pricing-table__header">- BUSINESS -</h2>
+      <h3 class="pricing-table__price">£80</h3>
+      <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+        Join Now!
+      </a>
+      <ul class="pricing-table__list">
+        <li>40 day free trial</li>
+        <li>100gb storage space</li>
+        <li>25% discount</li>
+        <li>24 hour support</li>
+      </ul>
     </div>
-
-
+    <div class="pricing-table">
+      <h2 class="pricing-table__header">- PREMIUM -</h2>
+      <h3 class="pricing-table__price">£130</h3>
+      <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+        Join Now!
+      </a>
+      <ul class="pricing-table__list">
+        <li>50 day free trial</li>
+        <li>200gb storage space</li>
+        <li>40% discount</li>
+        <li>24 hour support</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
