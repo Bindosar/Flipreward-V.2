@@ -12,6 +12,7 @@
   />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
   <link rel="stylesheet" href="./style.scss">
+  <link rel="stylesheet" href="./pricing.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
@@ -28,7 +29,7 @@
 </head>
 <body>
  
-  <section class="section11">
+  <section class="section11" >
     <img  class="rightshape" src="./img/rightthing.png" >
 
     <div>
@@ -58,68 +59,169 @@
   </div>
   </div> 
 </section>
-<section class="pricingCards" style="margin-top: 200px; margin-left: auto;margin-right: auto;">
-<div style="">
-  <div class="pricing1" style="width: 400px; height: 670px;  border: 2px solid gray; border-radius: 15px; margin-left: 50px;">
-  <div style="background-color: #E73786; padding: 25px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
-<h1>basic</h1>
-<h1>200$</h1>
-<h2>per month</h2>
-</div>
 
-<div style="background-color: white;  padding: 25px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<button  type="button"  class="btn  joinUsBtn">Join us</button>
-</div>
-</div>
-<div class="pricing1" style="width: 400px; height: 670px;  border: 2px solid gray; border-radius: 15px; margin-left: 50px;">
-  <div style="background-color: #E73786; padding: 25px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
-<h1>basic</h1>
-<h1>200$</h1>
-<h2>per month</h2>
-</div>
+<section >
+<div class="price-table-wrapper">
 
-<div style="background-color: white;  padding: 25px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<button  type="button"  class="btn  joinUsBtn">Join us</button>
-</div>
-</div><div class="pricing1" style="width: 400px; height: 670px;  border: 2px solid gray; border-radius: 15px; margin-left: 50px;">
-  <div style="background-color: #E73786; padding: 25px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
-<h1>basic</h1>
-<h1>200$</h1>
-<h2>per month</h2>
-</div>
+  <div class="pricing-table" style="margin-top: 40px; height: 500px;">
+    <h2 class="pricing-table__header">- BASIC -</h2>
+    <h3 class="pricing-table__price">£50</h3>
+    <a class="popupbtn pricing-table__button" href="#popup1"> 
+      <!-- <a target="_blank" class="" href="http://www.digimadmedia.com"> -->
+        Join Now!
+      </a>
+    <ul style="list-style-type: none;" class="pricing-table__list">
+      <li>30 day free trial</li>
+      <li>50gb storage space</li>
+      <li>20% discount</li>
+      <li>24 hour support</li>
+    </ul>
+  </div>
 
-<div style="background-color: white;  padding: 25px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<h2>features</h2>
-<button  type="button"  class="btn  joinUsBtn">Join us</button>
-</div>
-</div>
+
+  <div class="pricing-table featured-table " style="width: 325px; height: 530px; ">
+    <h2 class="pricing-table__header" >- BUSINESS -</h2>
+    <h3 class="pricing-table__price">£80</h3>
+    <a class="popupbtn pricing-table__button" href="#popup1"> 
+    <!-- <a target="_blank" class="" href="http://www.digimadmedia.com"> -->
+      Join Now!
+    </a>
+    <ul style="list-style-type: none;" class="pricing-table__list">
+      <li>40 day free trial</li>
+      <li>100gb storage space</li>
+      <li>25% discount</li>
+      <li>24 hour support</li>
+    </ul>
+  </div>
+
+
+  <div class="pricing-table" style="margin-top: 40px; height: 500px;">
+    <h2 class="pricing-table__header">- PREMIUM -</h2>
+    <h3 class="pricing-table__price">£130</h3>
+    <a class="popupbtn pricing-table__button" href="#popup1"> 
+      <!-- <a target="_blank" class="" href="http://www.digimadmedia.com"> -->
+        Join Now!
+      </a>
+    <ul style="list-style-type: none;" class="pricing-table__list">
+      <li >50 day free trial</li>
+      <li>200gb storage space</li>
+      <li>40% discount</li>
+      <li>24 hour support</li>
+    </ul>
+  </div>
 </div>
 </section>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+      <h4 style="color: #E73786; font-weight: 300; margin-bottom: 10px;font-size: 15px;">One Step Ahead To Join
+      </h4>
+      <h2 class="popuph2"  style="color:#1F2040; font-weight: 600; font-size: 25px;margin-bottom: 20px;">Please Fill Out Your Information Details, We Will Be Contacting You Soon!
+      </h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+     
+
+
+<form>
+
+  <div style="display: flex;">
+  <div class="form-group">
+    <input type="name" class="form-control feedback-input" id="exampleInputName" placeholder="Name" style="margin-right: 10px; width: 235px;" required="required">
+  </div>
+
+
+  <div class="form-group">
+    <input type="email" class="form-control feedback-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail"required="required" style=" width: 235px;">
+  </div>
+ </div>
+
+  <div class="form-group">
+    <textarea name="text" class="feedback-input" placeholder="Your message " style="width: 480px;"required="required"></textarea>
+  </div>
+
+
+  <button style="background-color:#E73786 ;"  onMouseOver="this.style.background='#7E7E7E'"
+  onMouseOut="this.style.background='#E73786'"
+type="submit" class="btn btn-primary submitbtn ">Submit</button>
+</form>
+      </div>
+  </div>
+</div>
+
+
+
+
+<footer class="section3" style="margin-top: 1000px;">
+  <div class="footerBackGroundColor" style="margin-top:-8px;">
+  <div style="display: flex; ">
+    <div  style="margin-top: 130px;  margin-left: auto; margin-right: auto;  ">
+    
+<img style="width: 60px; margin-left:145px;" src="/img/f_logo.png" alt="">
+<div  style="margin-top: 70px;">
+<ul style="display: flex ; list-style: none; padding-left: 1rem;">
+<a href="./index.html">
+  <li style="color: white ; text-decoration: underline; margin-right: 15px;">Home</li>
+</a>
+<a href="./pricing.html">
+  <li style="color: white; text-decoration: underline;  margin-right: 15px;">Pricing</li>
+</a>
+<a class="popupbtn" href="#popup1">  <li style="color: white ; text-decoration: underline; margin-right: 15px;">Join us</li></a>
+
+<a target="_blank" href="http://www.flipreward.com/faq/">    
+  <li style="color: white; text-decoration: underline; margin-right: 15px;">Faq</li>
+</a>
+<!-- <a href="http://www.flipreward.com/privacy/">    
+  <li style="color: white; text-decoration: underline; margin-right: 15px;">Terms & Conditions</li>
+</a> -->
+<a class="popupbtn" href="#popup1">  <li style="color: white ; text-decoration: underline; margin-right: 15px;">Contact us</li></a>
+</ul>
+</div>
+<!-- <h2 style="font-size: 2rem; font-weight: 600; color: white; text-align: center; margin-bottom: 30px; " >It’s very easy 
+to get started
+</h2> -->
+
+    <div class="socials-wrapper" style="align-items: center;" >
+      <ul >
+        <li><a href="https://twitter.com/flipreward" target="_blank" class="twitter"><i class="fab fa-twitter" ></i></a></li>
+        <li><a href="https://www.instagram.com/flipreward/" target="_blank" class="instagram"><i " class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/flipreward/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a></li>         
+       </ul>
+    </div>
+    <p class="copy" style="color: white; text-align: center;">© Copyright Flipreward - All Rights Reserved</p>
+</div>
+
+<!-- <div style="text-align: left; margin-top: 390px;" >
+<h2 style="color: #f2f2f2; font-weight: 700; margin-top: 70px; font-size: 2rem; margin-bottom: 50px;">Get in Touch</h2>
+<div >
+<ul style="list-style: none; padding-left: 0px;">
+  <li style="margin-bottom: 30px;">
+    <a href="" style="color: #E73786 ; font-size: 1.2rem; ">
+      <i style="margin-right: 13px; background-color: #c2c2c2; padding: 10px; border-radius: 50px;" class="fas fa-phone"></i>+965 99938897
+    </a>
+  </li>
+  <li style="margin-bottom: 30px;">
+    <a href="" style="color: #E73786 ; font-size: 1.2rem;">
+      <i style="margin-right: 13px; background-color: #c2c2c2; padding: 10px; border-radius: 50px;" class="fas fa-envelope"></i>info@flipreward.com
+    </a>
+  </li>
+  <li style="margin-bottom: 30px;">
+    <a href="" style="color: #E73786 ; font-size: 1.2rem;">
+      <i style="margin-right: 13px; background-color: #c2c2c2; padding: 10px; padding-left: 12.5px; padding-right: 12.5px; border-radius: 50px; " class="fas fa-map-marker-alt"></i>Kuwait City, 
+      Sharq,
+      Block4,<br>
+             jaber Al-Mubarak street,<br>
+      Building :b8,
+      floor 5,
+      office 5,
+    </a>
+  </li>
+</ul>
+</div> -->
+
+</div>
+</div>
+</div>    
+</footer>
 </body>
 </html>

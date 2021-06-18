@@ -696,7 +696,7 @@ margin-left: 45px;
 .overlay:target {
   visibility: visible;
   opacity: 1;
-  z-index: 999999;
+  z-index: 9999999999999999;
 }
 
 .popup {
