@@ -11,7 +11,7 @@ html h2 {
 } */
 #exampleSlider {
   position: relative;
-  width: 800px;
+  width: 1300px;
   margin-left: auto;
   margin-right: auto;
   /* border: 1px solid black; */
@@ -58,7 +58,7 @@ html h2 {
   vertical-align: top;
   /* border: 1px solid green; */
   /* border-right: none; */
-  width: 33.333%;
+  width: 20%;
   padding-left: 10px;
   padding-right: 10px;
 }
