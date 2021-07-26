@@ -414,6 +414,12 @@ a {
   position: relative;
 }
 
+.button1:hover{
+  background-color: 
+  #E73786;
+  color: #000;
+}
+
 @media only screen  and (max-width : 375px) { 
   .button1{
 margin-left: 45px;
@@ -424,6 +430,8 @@ margin-left: 45px;
 
 .whyloyalty{
   font-size: 4.5rem; color: #1F2040; margin-top: 60px; font-weight: 700; margin-bottom: 100px;
+  font-family: 'BioRhyme', serif;
+
 }
 
 .leftShape{
@@ -437,6 +445,8 @@ margin-left: 45px;
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 50px;
+  font-family: 'BioRhyme', serif;
+
 }
 .leftShape{
   /* margin-left: 20px; */
@@ -463,6 +473,11 @@ margin-left: 45px;
   border-radius: 50px;
   position: relative;
 }
+.button2:hover{
+  background-color: 
+  #E73786;
+  color: #000;
+}
 /* Pricing page styling */
 
 /* .button22 {
@@ -481,6 +496,11 @@ margin-left: 45px;
   margin-top: 30px;
   border-radius: 50px;
   position: relative;
+}
+.button3:hover{
+  background-color: 
+  #E73786;
+  color: #000;
 }
 
 /*  */
