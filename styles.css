@@ -11,30 +11,14 @@
   --card-transition-easing: ease;
 }
 
-img {
+/* img {
  width: 100%;
  height: auto;
-}
+} */
 
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
-/* body {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.787);
-  overflow: hidden;
-} */
-/* button {
-  border: none;
-  background: none;
-  cursor: pointer;
-} */
+
+
+
 button:focus {
   outline: none;
   border: none;
@@ -205,12 +189,7 @@ button:focus {
   --opacity: 0.4;
 }
 
-@media only screen  and (max-width : 375px) { 
 
-  .cards__wrapper{
-    /* width: 25%; */
-  }
-}
 /* .infoList {
   position: absolute;
   width: calc(3 * var(--card-width));
@@ -345,14 +324,7 @@ button:focus {
 }
   
      
-     @media (min-width: 992px)
-     {.link-container{background:none;border:0;box-sizing:border-box;position:relative;vertical-align:middle;padding:1em}.link-container::before,.link-container::after{box-sizing:inherit;content:'';position:absolute;width:100%;height:100%}.link-container::before,
-     .link-container::after{
-       top:0;left:0;height:100%;width:100%;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center}
-     .link-container::before{
-       border-top:2px solid #E73786;border-bottom:2px solid #E73786;-webkit-transform:scale3d(0, 1, 1);transform:scale3d(0, 1, 1)}
-     .link-container::after{
-       border-left:2px solid #E73786;border-right:2px solid #E73786;-webkit-transform:scale3d(1, 0, 1);transform:scale3d(1, 0, 1)}.link-container:hover::before,.link-container:hover::after{-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1);-webkit-transition:-webkit-transform 0.35s;transition:-webkit-transform 0.35s;transition:transform 0.35s;transition:transform 0.35s, -webkit-transform 0.35s}}
+    
     
      @media (prefers-reduced-motion: reduce)
      {.btn{-webkit-transition:none;
@@ -391,20 +363,15 @@ h1 {
 a {
   text-decoration: none;
 }
+.tabletDiv{
+  margin-top: 4%;
+}
 
 .tablet{
   width: 660px;  position: relative;   margin-top: 9%;
 }
 
-@media only screen  and (max-width : 375px) { 
-.tablet{
-  width: 250px;
-  /* position: relative; */
-     margin-top: 5%;
-     margin-left: 30px;
-}
 
-}
 
 .button1 {
   margin-left: 700px;
@@ -418,15 +385,10 @@ a {
 .button1:hover{
   background-color: 
   #E73786;
-  color: #000;
+  color: white;
 }
 
-@media only screen  and (max-width : 375px) { 
-  .button1{
-margin-left: 45px;
-  }
 
-}
 
 
 .whyloyalty{
@@ -439,25 +401,6 @@ margin-left: 45px;
   width: 650px;  position: absolute;
 }
 
-@media only screen and (max-width : 375px) { 
-
-.whyloyalty{
-  font-size: 2rem;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-bottom: 50px;
-  font-family: 'BioRhyme', serif;
-
-}
-.leftShape{
-  /* margin-left: 20px; */
-  width:320px ;
-  
-}
-
-
-
-}
 
 
 .btnconatiner{
@@ -477,18 +420,9 @@ margin-left: 45px;
 .button2:hover{
   background-color: 
   #E73786;
-  color: #000;
+  color: white;
 }
-/* Pricing page styling */
 
-/* .button22 {
-  margin-left: 19px;
-  margin-top: 50px;
-  margin-right: 25px;
-  color: #f2f2f2;
-  border: transparent;
-  border-radius: 50px;
-} */
 
 
 .button3{
@@ -501,19 +435,10 @@ margin-left: 45px;
 .button3:hover{
   background-color: 
   #E73786;
-  color: #000;
+  color: white;
 }
 
-/*  */
 
-/* .popupbtn{
-  margin-left: 90px;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer ;
-  color: #E73786;
-  position: relative;
-} */
 
 .slogan {
   width: 500px;
@@ -528,19 +453,7 @@ margin-left: 45px;
  
 }
 
-@media only screen and (max-width : 375px) { 
-  
-  
- .slogan{
-   font-size:18px ;
-   position: relative;
-   margin-left: 90px;
-   margin-top: -30px;
-   color: white;
-   /* text-align: center; */
- }
-  
-  }
+
 
 .joinUsBtn {
   border-radius: 50px;
@@ -578,12 +491,25 @@ margin-left: 45px;
    margin-bottom: 80px;
 }
 
+.loyaltySection{
+  margin-bottom: 200px;
+}
+
 .whyLoyaltyContant{
   margin-left: 830px;
    margin-top: 1%;
 }
 .section1div{
   display: flex;
+}
+.sloganDiv{
+  margin-top: 18%;
+}
+.sloganSpan1{
+  font-size: 45px; font-weight: 900;
+}
+.sloganSpan2{
+  font-size: 35px; font-weight: 300; line-height: -1em;
 }
 .section1{
   margin-bottom: 100px;
@@ -593,7 +519,9 @@ margin-left: 45px;
   color:#1F2040;
 
 }
-
+.itemImg{
+  width: 270px;
+}
 
 
 .explore{
@@ -608,60 +536,6 @@ margin-left: 45px;
 .fitness{
   text-align: center; font-size: 24px;
 }
-
-@media only screen  and (max-width : 375px) { 
-
-  .fitness{
-    text-align: center; font-size: 15px;
-  }
-  .exploreTitle{
-    width: 400px;
-  }
-  .exploreContainer{
-    width: 300px;
-  }
-
-  .content1,.content2{
-    margin-bottom: 30px;
-  }
-.contentP{
-  font-size: 12px;
-  width: 200px;
-}
-
-  .contentTitle{
-    font-size: 15px;
-  }
-
-  .joinUsBtn{
-    text-align: center;
-    margin-right: 0px;
-    font-size: 15px;
-    margin-top: 0px;
-    margin-left: 20px;
-    
-  }
-
-  .section1div{
-    display: inline-block;
-  }
-  .section1{
-    margin-bottom: 30px;
-  }
-
-  .whyLoyaltyContant{
-    margin-left: 10px;
-    margin-top: 350px;
-  }
-  .explore{
-    font-size: 2rem;
-   margin-top: 0px;
-    margin-bottom: 50px;
-  }
-  
-  }
-
-
 
 
 
@@ -685,19 +559,19 @@ margin-left: 45px;
   width: 700px;
   position: absolute;
   margin-left: 50%;
+  display: block;
 }
 
-
-@media only screen  and (max-width : 375px) { 
-
-  .rightshape{
-    width: 320px;
-    margin-left: 0px;
-    height: 500px;
-  }
-
+.smallbg{
+  display: none;
 }
 
+.mainLogo{
+  width: 200px;
+   margin-left: 100px;
+   margin-top: 25px;
+   /* display: block; */
+}
 
 
 
@@ -851,224 +725,6 @@ textarea {
 }
 
 
-/* 
-# Counts
---------------------------------------------------------------*/ 
-.counts {
-  padding: 70px 0 60px;
-}
-
-.counts .count-box {
-  display: flex;
-  align-items: center;
-  padding: 30px;
-  width: 100%;
-  background: #fff;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
-
-.counts .count-box i {
-  font-size: 42px;
-  line-height: 0;
-  margin-right: 20px;
-  color: #4154f1;
-}
-
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #0b198f;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Nunito", sans-serif;
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features .feature-box {
-  padding: 24px 20px;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  transition: 0.3s;
-  height: 100%;
-}
-
-.features .feature-box h3 {
-  font-size: 18px;
-  color: #012970;
-  font-weight: 700;
-  margin: 0;
-}
-
-.features .feature-box i {
-  line-height: 0;
-  background: #ecf3ff;
-  padding: 4px;
-  margin-right: 10px;
-  font-size: 24px;
-  border-radius: 3px;
-  transition: 0.3s;
-}
-
-.features .feature-box:hover i {
-  background: #4154f1;
-  color: #fff;
-}
-
-.features .feture-tabs {
-  margin-top: 120px;
-}
-
-.features .feture-tabs h3 {
-  color: #012970;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-  .features .feture-tabs h3 {
-    font-size: 28px;
-  }
-}
-
-.features .feture-tabs .nav-pills {
-  border-bottom: 1px solid #eee;
-}
-
-.features .feture-tabs .nav-link {
-  background: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 600;
-  color: #012970;
-  padding: 12px 0;
-  margin-right: 25px;
-  margin-bottom: -2px;
-  border-radius: 0;
-}
-
-.features .feture-tabs .nav-link.active {
-  color: #4154f1;
-  border-bottom: 3px solid #4154f1;
-}
-
-.features .feture-tabs .tab-content h4 {
-  font-size: 18px;
-  margin: 0;
-  font-weight: 700;
-  color: #012970;
-}
-
-.features .feture-tabs .tab-content i {
-  font-size: 24px;
-  line-height: 0;
-  margin-right: 8px;
-  color: #4154f1;
-}
-
-.features .feature-icons {
-  margin-top: 120px;
-}
-
-.features .feature-icons h3 {
-  color: #012970;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .features .feature-icons h3 {
-    font-size: 28px;
-  }
-}
-
-.features .feature-icons .content .icon-box {
-  display: flex;
-}
-
-.features .feature-icons .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 10px 0;
-  color: #012970;
-}
-
-.features .feature-icons .content .icon-box i {
-  font-size: 44px;
-  line-height: 44px;
-  color: #0245bc;
-  margin-right: 15px;
-}
-
-.features .feature-icons .content .icon-box p {
-  font-size: 15px;
-  color: #848484;
-}
-/* 
-.hero3 {
-  min-height: 50vh;
-}
-.counters {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 60vh;
-}
-
-.counter-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
-  background-color: #e9b372;
-  align-items: center;
-  height: 200px;
-}
-.counters .counter-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.i-contianer {
-  margin-right: 70px;
-  margin-left: 70px;
-  width: 130px;
-}
-.counter i {
-  margin-bottom: 5px;
-}
-.counters .counter {
-  font-size: 35px;
-  color: white;
-  margin-left: 8px;
-}
-.counter-title {
-  font-size: 15px;
-  color: #ffffff;
-  margin-left: 10px;
-  width: 150px;
-}
-.i-counter {
-  color: white;
-}
-
-
-@media (max-width: 700px) {
-  .counters .counter-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .counters .counter-container > div:nth-of-type(1),
-  .counters .counter-container > div:nth-of-type(2) {
-    border-bottom: 1px solid;
-    padding-bottom: 20px;
-  }
-} */
 
 .serving .container .mainbox {
   transition: all 0.35s ease-in-out;
@@ -1188,103 +844,85 @@ textarea {
 }
 
 
-/* Why loyalty  */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3){
 
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+  
+.rightshape{
+ display: none;
+}
+.smallbg{
+  display: block;
+  position: absolute;
+}
+.mainLogo{
+  display: none;
+}
 
+.button1 {
+  margin-left: 100px;
+  margin-top: 15px;
+  position: relative;
+}
+.button2 {
+  /* margin-left: 130px; */
+  margin-top: 15px;
+  margin-right: 25px;
+  position: relative;
+}
 
-    .card123 {
-      position: relative;
-      width: 250px;
-      height: 350px;
-      /* margin: 0 auto; */
-      background: #1F2040;
-      border-radius: 15px;
-      box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
-    }
-      .face {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-        .face1 {
-          box-sizing: border-box;
-          padding: 15px;
-          
+.button3{
+  margin-top: 15px;
+  position: relative;
+}
+.sloganDiv{
+  height: 190px;
+  width: 300px;
+  margin-top: 50px;
+  position: relative;
+}
+.slogan {
+  position: relative;
+  width: 300px;
+  margin-top: -13px;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 43px;
+  /* margin-bottom: 30px; */
+  color: white;
+ 
+}
+.sloganSpan1{
+  font-size: 37px; font-weight: 900;
+}
+.sloganSpan2{
+  font-size: 27px; font-weight: 300; line-height: -1em;
+}
+.tabletDiv{
+  position: relative;
+  margin-top: 50%;
+}
+.tablet{
+  width: 400px;  position: relative; 
+}
 
-        }
-          h2 {
-            margin: 0;
-            padding: 0;
-          }
+.whyloyalty{
+  font-size: 2.5rem;
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
 
-          .java {
-            background-color: #E73786;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          }
+.leftShape{
+  width: 375px;
+    position: absolute;
+}
+.whyLoyaltyContant{
+  margin-left: 30px;
+   margin-top: 110%;
+}
+.content1,.content2,.content3{
+  text-align: center;
+  width:320px ;
+   margin-bottom: 30px;
+}
+}
 
-          .python {
-            background-color: #E73786;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          }
-
-          .cSharp {
-            background-color: #E73786;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          }
-        
-
-        .face2 {
-          transition: 0.5s;
-        }
-          h2 {
-            margin: 0;
-            padding: 0;
-            font-size: 10em;
-            color: #fff;
-            transition: 0.5s;
-            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            z-index: 10;
-          }
-
-    .card123:hover .face.face2 {
-      height: 80px;
-      
-    }
-      h2 {
-        font-size: 2em;
-      }
-    
-
-    .card123:nth-child(1) .face.face2 {
-      background-color: #F2F2F2;
-      background-image: url(./img/review.svg) ;
-      background-size: contain;
-      background-repeat: no-repeat;
-      border-radius: 15px;
-      background-origin: content-box;
-    }
-
-    .card123:nth-child(2) .face.face2 {
-      background-color: #F2F2F2;
-      background-image: url(./img/coin.svg) ;
-      background-size:  contain;
-      background-repeat: no-repeat;
-      border-radius: 15px;
-      background-origin: content-box;
-    }
-
-    .card123:nth-child(3) .face.face2 {
-      background-color: #F2F2F2;
-      background-image: url(./img/profit.svg) ;
-      background-size: contain;
-      background-repeat: no-repeat;
-      border-radius: 15px;
-      background-origin: content-box;
-    }
