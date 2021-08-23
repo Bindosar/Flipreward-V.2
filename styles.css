@@ -386,6 +386,7 @@ a {
   background-color: 
   #E73786;
   color: white;
+  border-radius: 50px;
 }
 
 
@@ -401,7 +402,9 @@ a {
   width: 650px;  position: absolute;
 }
 
-
+.rightThing{
+  width: 700px;  position: absolute;margin-left: 48.5%;
+}
 
 .btnconatiner{
   text-align: right;
@@ -421,6 +424,7 @@ a {
   background-color: 
   #E73786;
   color: white;
+  border-radius: 50px;
 }
 
 
@@ -436,6 +440,7 @@ a {
   background-color: 
   #E73786;
   color: white;
+  border-radius: 50px;
 }
 
 
@@ -493,6 +498,13 @@ a {
 
 .loyaltySection{
   margin-bottom: 200px;
+}
+.whyLoyalty3{
+  margin-bottom: 100px;
+}
+.whyloyalty4{
+  font-family: 'BioRhyme', serif;
+  font-size: 4.5rem; color: #1F2040; text-align: center; margin-bottom: 30px; font-weight: 700; position: relative;
 }
 
 .whyLoyaltyContant{
@@ -628,11 +640,31 @@ textarea {
 
 }
 
-
+/* .slides{
+  background-image: url("./carousel-02/img/bgggg.png");
+  height: 170vh;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 /* .submitbtn:hover { 
   background:#7E7E7E;
  } */
 
+ .dashboardImg{
+  width:450px ; margin-left: 58.5%; margin-top: 120px; position: absolute;
+ }
+.dashboardconatainer{
+  display: flex;  ;  margin-bottom: 100px; margin-top: 10%;
+}
+.dashboardconatainer > ul{
+  list-style: none; margin-left: 13%; margin-right: 15%;
+}
+.dashboardconatainer > ul > li{
+  padding-bottom: 10px;
+}
+.dashboardconatainer > ul > li > p{
+  font-size: 15px;
+}
 .section3{
   height: 60vh;
   /* background-image: url("./img/footer.png")  ; */
@@ -678,6 +710,7 @@ textarea {
   padding: 0;
 }
 .socials-wrapper > ul > li {
+
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
@@ -687,14 +720,16 @@ textarea {
   border-radius: 50%;
   color: #fff;
   display: -webkit-box;
-  height: 2em;
+  /* height: 2em; */
+  height:50px;
   -webkit-box-pack: center;
   justify-content: center;
   text-align: center;
   text-decoration: none;
   -webkkit-transition: all 300ms ease;
   transition: all 300ms ease;
-  width: 2em;
+  width: 50px;
+  /* width: 2em; */
   /* padding: 10px;
    padding-left: 13px;
     padding-right: 13px;  */
@@ -706,6 +741,7 @@ textarea {
 }
 .socials-wrapper > ul > li > a.twitter {
   background: #E73786;
+  
   /* width: 2em;
   height: 2em; */
 }
@@ -724,44 +760,48 @@ textarea {
   transform: translateY(-0.5em);
 }
 
+.containerr{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
-.serving .container .mainbox {
+.serving .containerr .mainbox {
   transition: all 0.35s ease-in-out;
 }
-.serving .container .mainbox:hover {
+.serving .containerr .mainbox:hover {
   transform: translateY(-15px);
 }
-.serving .container .mainbox > div.cr1 {
+.serving .containerr .mainbox > div.cr1 {
   background-color: #1F2040;
   box-shadow: 0px -10px 0px rgba(31, 32, 64, 0.5);
 }
-.serving .container .mainbox > div.cr2 {
+.serving .containerr .mainbox > div.cr2 {
   background-color: #2E2F60;
   box-shadow: 0px -10px 0px rgba(46, 47, 96, 0.5);
 }
-.serving .container .mainbox > div.cr3 {
+.serving .containerr .mainbox > div.cr3 {
   background-color: #494A97;
   box-shadow: 0px -10px 0px rgba(73, 74, 151, 0.5);
 }
-.serving .container .mainbox > div.cr4 {
+.serving .containerr .mainbox > div.cr4 {
   background-color: #5A5BAF;
   box-shadow: 0px -10px 0px rgba(90, 91, 175, 0.5);
 }
-.serving .container .mainbox > div.cr5 {
+.serving .containerr .mainbox > div.cr5 {
   background-color: #9F9FD1;
   box-shadow: 0px -10px 0px rgba(159, 159, 209, 0.5);
 }
-.serving .container .mainbox > div:nth-of-type(1) {
+.serving .containerr .mainbox > div:nth-of-type(1) {
   padding: 15px 0;
   border-radius: 25px 25px 0 0;
 }
-.serving .container .mainbox > div:nth-of-type(1) h5 {
+.serving .containerr .mainbox > div:nth-of-type(1) h5 {
   margin-bottom: 0;
   color: #fff;
   text-align: center;
 }
-.serving .container .mainbox > div:nth-of-type(2) {
+.serving .containerr .mainbox > div:nth-of-type(2) {
   padding: 30px 20px;
   text-align: center;
   background-color: #fff;
@@ -769,10 +809,10 @@ textarea {
   border-radius: 0 0 25px 25px;
   position: relative;
 }
-.serving .container .mainbox > div:nth-of-type(2):hover:after {
+.serving .containerr .mainbox > div:nth-of-type(2):hover:after {
   height: 100%;
 }
-.serving .container .mainbox > div:nth-of-type(2)::after {
+.serving .containerr .mainbox > div:nth-of-type(2)::after {
   content: " ";
   width: 100%;
   height: 0%;
@@ -782,22 +822,22 @@ textarea {
   border-radius: 0 0 25px 25px;
   transition: all 0.35s ease-in-out;
 }
-.serving .container .mainbox > div:nth-of-type(2).afr1::after {
+.serving .containerr .mainbox > div:nth-of-type(2).afr1::after {
   background-color: #1F2040;
 }
-.serving .container .mainbox > div:nth-of-type(2).afr2::after {
+.serving .containerr .mainbox > div:nth-of-type(2).afr2::after {
   background-color: #2E2F60;
 }
-.serving .container .mainbox > div:nth-of-type(2).afr3::after {
+.serving .containerr .mainbox > div:nth-of-type(2).afr3::after {
   background-color: #494A97;
 }
-.serving .container .mainbox > div:nth-of-type(2).afr4::after {
+.serving .containerr .mainbox > div:nth-of-type(2).afr4::after {
   background-color: #5A5BAF;
 }
-.serving .container .mainbox > div:nth-of-type(2).afr5::after {
+.serving .containerr .mainbox > div:nth-of-type(2).afr5::after {
   background-color: #9F9FD1;
 }
-.serving .container .mainbox > div:nth-of-type(2) span {
+.serving .containerr .mainbox > div:nth-of-type(2) span {
   color: #7E7E7E;
   font-size: 60px;
   font-weight: bold;
@@ -805,6 +845,36 @@ textarea {
   position: relative;
   z-index: 999999;
 }
+
+.servingRow{
+  display: flex; justify-content: space-around; flex-wrap: wrap;
+}
+.fadeInUpBig1{
+  visibility: visible; animation-duration: 0.75s; min-width: 240px;
+}
+.fadeInUpBig2{
+  visibility: visible; animation-duration: 0.85s;
+              min-width: 240px;
+}
+.fadeInUpBig3{
+  
+visibility: visible; animation-duration: 0.95s;
+              min-width: 240px;
+}
+
+.fadeInUpBig4{
+  visibility: visible; animation-duration: 1.05s;
+              min-width: 240px;
+}
+.fadeInUpBig5{
+  visibility: visible; animation-duration: 1.05s;
+              min-width: 240px;
+}
+.servingRow{
+  display: flex; ;
+  justify-content: space-around; flex-wrap: wrap;
+}
+
 
 /* .serving .container .mainbox > div:nth-of-type(2) span::after {
   color: rgb(255, 255, 255);
@@ -815,7 +885,7 @@ textarea {
   z-index: 999999;
 } */
 @media (max-width: 576px) {
-  .serving .container .mainbox > div:nth-of-type(2) span {
+  .serving .containerr .mainbox > div:nth-of-type(2) span {
     font-size: 50px;
   }
 }
@@ -899,30 +969,103 @@ textarea {
 }
 .tabletDiv{
   position: relative;
-  margin-top: 50%;
+  top: 200px;
+  z-index: 9999;
+  right: 300px;
 }
 .tablet{
-  width: 400px;  position: relative; 
+ 
+  width: 340px;  position: relative; 
 }
 
 .whyloyalty{
   font-size: 2.5rem;
-   margin-top: 50px;
-   margin-bottom: 40px;
+  top: 500px;
+   margin-bottom: 0px;
+   z-index: 99999;
+}
+.whyloyalty2{
+  margin-top: 260px;
+}
+.whyloyalty4{
+  font-size: 2.5rem;
 }
 
 .leftShape{
-  width: 375px;
+  margin-left: 20px;
+  width: 330px;
     position: absolute;
+    top: 680px;
 }
 .whyLoyaltyContant{
   margin-left: 30px;
-   margin-top: 110%;
+   margin-top: 100%;
 }
 .content1,.content2,.content3{
   text-align: center;
   width:320px ;
    margin-bottom: 30px;
 }
+.whyLoyalty3{
+  margin-bottom: 50px;
+}
+.whyloyalty5{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.rightThing{
+  top: 3140px; 
+}
+.dashboardImg{
+  width: 250px;
+  margin-left: 17%;
+   margin-top: 80px; 
+ 
+}
+
+.dashboardconatainer{
+   margin-bottom: 30px; margin-top: 99%;
+}
+
+.dashboardconatainer > ul{
+  margin-left: 20px; margin-right: 5%; padding-left: 0.5rem;
+}
+.dashboardconatainer > ul > li{
+  padding-bottom: 10px;
+ 
+}
+.dashboardconatainer > ul > li > p{
+  font-size: 18px;
+}
+/* 
+.containerr{
+  max-width: 340px !important;
+  
+}
+
+.serving .container .row > div {
+  padding: 0 5px;
+  margin-bottom: 30px;
+}
+
+.mainbox{
+  width: 150px;
+}
+.servingRow{
+  display: flex; flex-direction: row;
+  justify-content: space-around; flex-wrap: wrap;
+}
+.fadeDiv{
+  display: block;
+} */
+
+/* .row>* {
+ 
+  width: 150px;
+  max-width:150px;
+  padding-left: 0px;
+  padding-right: 0px;
+ 
+} */
 }
 
